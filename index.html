@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0569)file:///E:/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20Word/%D0%9B%D0%B0%D0%B1%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%AD%D0%92%D0%9C/2017/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%9C%D0%93%D0%A3%D0%9F%20-%2027.11.2017/%D0%A0%D0%B0%D1%81%D1%87%D0%B5%D1%82%20%D1%81%D1%82%D0%B5%D0%BF%D0%B5%D0%BD%D0%B8%20%D0%B4%D0%B8%D1%81%D1%81%D0%BE%D1%86%D0%B8%D1%8F%D1%86%D0%B8%D0%B8%20%D0%B8%20pH%20%D1%80%D0%B0%D1%81%D1%82%D0%B2%D0%BE%D1%80%D0%BE%D0%B2%20%D1%81%D0%BB%D0%B0%D0%B1%D0%BE%D0%B9%20%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D1%8B..htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Расчет степени диссоцияции и pH растворов кислоты.</title>
+    
+</head>
+<body>   
+    
+    <center><h1>Измерение pH растворов слабой кислоты</h1></center>
+    <div class="LabelGroup">
+    <h4>Введите значения:</h4>
+    
+    <label for="a">Введите C0 :<input type="text" id="a" value="0.1"></label><br><br>
+    <label for="b">Введите V1 :<input type="text" id="b" value="20"></label><br><br>
+    <label for="c">Введите V2 :<input type="text" id="c" value="5"></label><br><br>
+    <label for="d">Введите C1 :<input type="text" id="d" value="0.1"></label><br><br>
+    <label for="e">Введите V3 :<input type="text" id="e" value="20"></label><br><br>
+    <label for="f">Введите V4 :<input type="text" id="f" value="5"></label><br><br>
+    <label for="g">Введите C2 :<input type="text" id="g" value="0.1"></label><br><br>
+    </div>
+    <div class="RadioGroup">
+    <h4>Выберите слабый жлектролит:</h4>
+    <label for="UK"><input type="radio" id="UK" name="Group" checked="">Уксусная кислота</label><br><br>
+    <label for="MK"><input type="radio" id="MK" name="Group">Муравьиная кислота</label><br><br>
+    <label for="GK"><input type="radio" id="GK" name="Group">Гликолевая кислота</label><br><br>
+    <label for="DK"><input type="radio" id="DK" name="Group">Дихлоруксусная кислота</label><br><br>
+    <label for="MaK"><input type="radio" id="MaK" name="Group">Масляная кислота</label><br><br>
+    <label for="MoK"><input type="radio" id="MoK" name="Group">Молочная кислота</label><br><br>
+    <label for="TK"><input type="radio" id="TK" name="Group">Трихлоруксусная кислота</label><br><br>
+    <label for="HK"><input type="radio" id="HK" name="Group">Хлоруксусная кислота</label><br><br><br>
+    </div> 
+    <center>
+    <h4><p id="element">Степень диссоциации кислоты равна:</p></h4>
+    <p id="out1">Исходный раствор кислоты, ст. дисс. = 1.100e+1</p> 
+    <p id="out2">Раствор кислоты + HCl, ст. дисс. = 5.078e+0</p> 
+    <p id="out3">Раствор кислоты + NaOH, ст. дисс. = 5.256e+0</p>   
+    <button onclick="pH()">pH раствора</button>
+    <button onclick="SD()">Степень диссоциации</button>
+    </center>
+    
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">   
+
+</body></html>
